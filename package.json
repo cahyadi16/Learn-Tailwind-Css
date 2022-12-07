@@ -1,0 +1,18 @@
+{
+  "name": "learn-tailwind",
+  "version": "1.0.0",
+  "description": "Learn Tailwind Css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./tailwind.css -o ./style.css --watch"
+  },
+  "keywords": [
+    "tailwindcss"
+  ],
+  "author": "Cahyadi",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
